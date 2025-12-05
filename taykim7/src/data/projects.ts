@@ -14,8 +14,8 @@ export interface ProjectItem {
 export const projects: ProjectItem[] = [
   {
     id: "project-06",
-    title: "test1",
-    description: "test",
+    title: "test6",
+    description: "test6입니다",
     thumbnail: "/img/thumbnails/test-thumbnail.png",
     original: {
       type: "image",
@@ -24,8 +24,8 @@ export const projects: ProjectItem[] = [
   },
   {
     id: "project-05",
-    title: "test1",
-    description: "test",
+    title: "test5",
+    description: "test5입니다",
     thumbnail: "/img/thumbnails/5.png",
     original: {
       type: "image",
@@ -34,8 +34,8 @@ export const projects: ProjectItem[] = [
   },
   {
     id: "project-04",
-    title: "test1",
-    description: "test",
+    title: "test4",
+    description: "test4입니다",
     thumbnail: "/img/thumbnails/4.png",
     original: {
       type: "image",
@@ -44,8 +44,8 @@ export const projects: ProjectItem[] = [
   },
   {
     id: "project-03",
-    title: "test1",
-    description: "test",
+    title: "test3",
+    description: "test3입니다",
     thumbnail: "/img/thumbnails/3.png",
     original: {
       type: "image",
@@ -54,8 +54,8 @@ export const projects: ProjectItem[] = [
   },
   {
     id: "project-02",
-    title: "test1",
-    description: "test",
+    title: "test2",
+    description: "test2입니다",
     thumbnail: "/img/thumbnails/2.png",
     original: {
       type: "image",
@@ -65,7 +65,7 @@ export const projects: ProjectItem[] = [
   {
     id: "project-01",
     title: "test1",
-    description: "test",
+    description: "test1입니다",
     thumbnail: "/img/thumbnails/1.png",
     original: {
       type: "image",

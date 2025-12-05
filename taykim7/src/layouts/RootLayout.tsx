@@ -1,6 +1,6 @@
 import { Header } from "../components/header/Header";
 import { Footer } from "../components/footer/Footer";
-import TestView from "./ListLayout";
+import ListView from "./ListLayout";
 
 export default function RootLayout() {
   return (
@@ -9,7 +9,7 @@ export default function RootLayout() {
 
         <main className="flex-1 flex justify-center items-start">
           <div className="w-full bg-gray-0 rounded-xl">
-            <TestView />
+            <ListView />
           </div>
         </main>
 
