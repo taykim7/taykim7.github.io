@@ -23,20 +23,7 @@ export default function MultipleSquares() {
         open={!!selected}
         onClose={() => setSelected(null)}
       >
-        {selected && (
-          <>
-            {/* 이미지 */}
-            <img
-              src={selected.thumbnail}
-              alt={selected.title}
-              className="w-full max-h-[80vh] object-contain rounded-lg mb-4"
-            />
-
-            {/* 텍스트 */}
-            <h2 className="text-xl font-bold">{selected.title}</h2>
-            <p className="text-gray-600 mt-1">{selected.description}</p>
-          </>
-        )}
+        {selected}
       </ModalView>
     </div>
   );
