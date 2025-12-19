@@ -29,7 +29,7 @@ export default function Modal({ open, onClose, children }: ModalProps) {
         onClick={(e) => e.stopPropagation()}
       >
         <button
-          className="absolute top-3 right-3 text-gray-500 hover:text-black"
+          className="absolute top-3 right-3 text-gray-500 hover:text-black bg-black/100"
           onClick={onClose}
         >
           ㅇㅋ
