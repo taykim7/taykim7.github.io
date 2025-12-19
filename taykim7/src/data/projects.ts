@@ -1,4 +1,4 @@
-export type MediaType = "image" | "gif" | "html" | "video";
+export type MediaType = "image" | "gif" | "lottie" | "video";
 
 export interface ProjectItem {
   id: string;
@@ -26,17 +26,19 @@ export const projects: ProjectItem[] = [
     id: "project-05",
     title: "test5",
     description: "test5입니다",
-    thumbnail: "/img/thumbnails/5.png",
+    // thumbnail: "/img/thumbnails/5.png",
+    thumbnail: "/img/thumbnails/test-thumbnail.png",
     original: {
-      type: "image",
-      src: "/img/thumbnails/5.png"
+      type: "lottie",
+      src: "data.json"
     }
   },
   {
     id: "project-04",
     title: "test4",
     description: "test4입니다",
-    thumbnail: "/img/thumbnails/4.png",
+    // thumbnail: "/img/thumbnails/4.png",
+    thumbnail: "/img/thumbnails/test-thumbnail.png",
     original: {
       type: "image",
       src: "/img/thumbnails/4.png"
@@ -46,7 +48,8 @@ export const projects: ProjectItem[] = [
     id: "project-03",
     title: "test3",
     description: "test3입니다",
-    thumbnail: "/img/thumbnails/3.png",
+    // thumbnail: "/img/thumbnails/3.png",
+    thumbnail: "/img/thumbnails/test-thumbnail.png",
     original: {
       type: "image",
       src: "/img/thumbnails/3.png"
@@ -56,7 +59,8 @@ export const projects: ProjectItem[] = [
     id: "project-02",
     title: "test2",
     description: "test2입니다",
-    thumbnail: "/img/thumbnails/2.png",
+    // thumbnail: "/img/thumbnails/2.png",
+    thumbnail: "/img/thumbnails/test-thumbnail.png",
     original: {
       type: "image",
       src: "/img/thumbnails/2.png"
@@ -66,7 +70,8 @@ export const projects: ProjectItem[] = [
     id: "project-01",
     title: "test1",
     description: "test1입니다",
-    thumbnail: "/img/thumbnails/1.png",
+    // thumbnail: "/img/thumbnails/1.png",
+    thumbnail: "/img/thumbnails/test-thumbnail.png",
     original: {
       type: "image",
       src: "/img/thumbnails/1.png"
